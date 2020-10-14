@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, StatusBar } from 'react-native';
 import { colors } from '../../styles'
 import Header from './components/Header'
-
+import Bookmark from './components/Bookmark'
 
 export default function App() {
   return (
@@ -10,6 +10,10 @@ export default function App() {
         <StatusBar barStyle="light-content" />
         
         <Header />
+
+        <View>
+            <Bookmark />
+        </View>
     </View>
   );
 }

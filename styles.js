@@ -17,5 +17,9 @@ export const gs = StyleSheet.create({
     rowBetween: {
         flexDirection: "row",
         justifyContent: "space-between"
+    },
+    center: {
+        alignItems: "center",
+        justifyContent: "center"
     }
 })

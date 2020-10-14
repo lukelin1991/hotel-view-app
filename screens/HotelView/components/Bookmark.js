@@ -1,18 +1,26 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
+import { Feather } from '@expo/vector-icons'
+import { gs, colors } from '../../../styles'
 
 export default function Bookmark(){
     return (
-        <View style={StyleSheet.container}>
-            <Text>BookMark</Text>
+        <View style={StyleSheet.Bookmark}>
+            <Feather name="bookmark" size={24} color={colors.pink} />
         </View>
     )
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center"
+    bookmark: {
+        position: "absolute",
+        width: 56,
+        height: 56,
+        right: 32,
+        top: -56 / 2,
+        backgroundColor: colors.text,
+        ...gs.center,
+        borderRadius: 56 / 2,
+        zIndex: 10
     }
 })
