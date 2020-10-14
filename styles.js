@@ -4,4 +4,7 @@ export const colors = {
     lightBg: "#333",
     darkHl: "#666",
     lightHl: "#888",
+    pink: "#ea3372",
+    text: "#fff",
+    textSec: "#aaa"
 }
