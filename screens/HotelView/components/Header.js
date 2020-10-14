@@ -1,18 +1,35 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, Image } from 'react-native'
+import { AntDesign, Entypo } from '@expo/vector-icons'
+import { gs } from '../../../styles'
 
 export default function Header() {
     return (
         <View>
-            <Text>Header Screen</Text>
+            <Image source={require('../../../assets/hotel.jpg')} style={{width: "100%", height: 400}} />
+            <View style={styles.topButtons}>
+                <AntDesign name="close" size={24} color="#fff" />
+
+                <View style={gs.rowCenter}>
+                    <AntDesign name="save" size={24} style={styles.topButtonRight} />
+                    <AntDesign name="sharealt" size={24} style={styles.topButtonRight} />
+                    <Entypo name="dots-three-vertical" size={18} style={styles.topButtonRight} />
+                </View>
+            </View>
         </View>
     )
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center"
+    topButtons: {
+        ...gs.rowBetween,
+        position: 'absolute',
+        top: 64,
+        left: 32,
+        right: 32
+    },
+    topButtonRight: {
+        marginLeft: 12,
+        color: "#fff",
     }
 })
