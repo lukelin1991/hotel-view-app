@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import { gs, colors } from '../../styles'
+import Header from './components/Header'
 
 export default class index extends Component {
     render(){
@@ -15,6 +16,6 @@ export default class index extends Component {
 const styles = StyleSheet.create({
     container: {
         backgroundColor: colors.darkBg,
-        
+
     }
 })
