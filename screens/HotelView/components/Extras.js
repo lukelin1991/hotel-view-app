@@ -6,10 +6,10 @@ import { Entypo } from '@expo/vector-icons'
 export default function Extras(){
     const extras = [
         "Payment at Checkout",
-        "WI-FI Network is off by 12:00pm",
-        "No swimming after 10:00pm",
-        "No more than 2 bags of luggage",
-        "No signing while showering",
+        "WI-FI Network is off by 2:00am",
+        "No swimming after 11:00pm",
+        "No more than 3 bags of luggage",
+        "No singing while showering",
         "No Refunds"
     ];
 

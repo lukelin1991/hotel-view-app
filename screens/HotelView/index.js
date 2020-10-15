@@ -9,7 +9,7 @@ import Amenities from './components/Amenities'
 import Address from './components/Address'
 import Extras from './components/Extras'
 
-export default function App() {
+export default function index() {
   return (
     <View style={styles.container}>
         <StatusBar barStyle="light-content" />
