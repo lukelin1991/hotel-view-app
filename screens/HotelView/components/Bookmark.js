@@ -5,7 +5,7 @@ import { gs, colors } from '../../../styles'
 
 export default function Bookmark(){
     return (
-        <View style={StyleSheet.Bookmark}>
+        <View style={styles.bookmark}>
             <Feather name="bookmark" size={24} color={colors.pink} />
         </View>
     )

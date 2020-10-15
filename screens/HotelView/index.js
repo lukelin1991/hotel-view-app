@@ -4,6 +4,7 @@ import { colors } from '../../styles'
 import Header from './components/Header'
 import Bookmark from './components/Bookmark'
 import About from './components/About'
+import Stats from './components/Stats'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <View>
             <Bookmark />
             <About />
+            <Stats />
         </View>
     </View>
   );
