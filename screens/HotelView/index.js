@@ -6,6 +6,7 @@ import Bookmark from './components/Bookmark'
 import About from './components/About'
 import Stats from './components/Stats'
 import Amenities from './components/Amenities'
+import Address from './components/Address'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <About />
             <Stats />
             <Amenities />
+            <Address />
         </View>
     </View>
   );

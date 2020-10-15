@@ -42,11 +42,22 @@ export const gs = StyleSheet.create({
         color: colors.text,
         fontSize: 30
     },
-    about: {
-        fontSize: 13,
-        fontWeight: "600",
-        color: colors.textSec,
-        marginTop: 6,
-        lineHeight: 20
+    smallText: {
+        fontSize: 12,
+        fontWeight: "800",
+        color: colors.text
+    },
+    absoluteFull: {
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+    },
+    button: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: colors.pink,
+        borderRadius: 100
     }
 })

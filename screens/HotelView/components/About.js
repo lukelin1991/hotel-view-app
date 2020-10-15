@@ -11,7 +11,7 @@ const hotel = {
 
 export default function About(){
     return (
-        <View style={StyleSheet.container}>
+        <View style={styles.container}>
             <Text style={gs.title}>{hotel.name}</Text>
 
             <Text style={styles.info}>
@@ -35,5 +35,12 @@ const styles = StyleSheet.create({
         color: colors.textSec,
         fontWeight: "600",
         marginTop: 4
+    },
+    about: {
+        fontSize: 13,
+        fontWeight: "600",
+        color: colors.textSec,
+        marginTop: 6,
+        lineHeight: 20
     }
 })
