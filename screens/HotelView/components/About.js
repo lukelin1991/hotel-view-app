@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native'
 import { gs, colors } from '../../../styles'
 
 const hotel = {
-    name: "Mt. Catlin Hotel",
+    name: "The Catarina Hotel",
     price: "$967",
     location: "Santa Catarina",
     about: "A romantic exclusive getaway, with luxury and service excellence in the unspoiled nature and sea of the Emerald Coast in the province of Santa Catarina."

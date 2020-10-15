@@ -19,7 +19,7 @@ export default function Address(){
 
                     <View style={{ marginTop: 16 }}>
                         <TouchableOpacity style={styles.checkButton}>
-                            <Text style={gs.smallText}>Check it</Text>
+                            <Text style={gs.smallText}>Check it out</Text>
                             <Entypo name="chevron-right" size={12} color="#fff" style={{ marginLeft: 4}} />
                         </TouchableOpacity>
                     </View>
