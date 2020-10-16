@@ -6,6 +6,7 @@ export const colors = {
     darkHl: "#666",
     lightHl: "#888",
     pink: "#ea3372",
+    orange: "#F97878",
     text: "#fff",
     textSec: "#aaa"
 }
